@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/*Navigace*/
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav ul {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+nav ul li {
+  width: 145px;
+  list-style-type: none;
+  float: left;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+nav ul li a:hover {
+  border-bottom: #fff 2px solid;
+}
+
+/*clearfix ukončí floatování*/
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.iPhone {
+  background-color: rgb(0, 0, 0);
+}
+.iPhone img {
+  display: block;
+  margin: 0 auto;
+  width: 28%;
+  position: relative;
+  top: 60px;
+}
+
+main h2 {
+  text-align: center;
+  margin-top: 140px;
+}
+
+main h2 span {
+  font-size: 60px;
+}
+
+.section1 img {
+  /*Watch*/
+  display: block;
+  width: 275px;
+  margin: 0 auto;
+  margin-top: 100px;
+  transform: rotate(15deg);
+}
+
+.section2 h2 {
+  font-size: 60px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+footer {
+  background-color: #f5f5f5;
+  color: #86868b;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.firstPhoto {
+  background-color: rgb(0, 0, 0);
+}
+
+.firstPhoto img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  position: relative;
+  top: 80px;
+}
+
+h2 span {
+  font-size: 60px;
+  text-align: center;
+}
